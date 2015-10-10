@@ -11,12 +11,12 @@
         <field name="ACTION">ON</field>
         <value name="LED">
           <block type="math_number" id="43">
-            <field name="NUM">30000</field>
+            <field name="NUM">50</field>
           </block>
         </value>
         <next>
           <block type="oled_color" id="25">
-            <field name="OBJECT">BLACK</field>
+            <field name="OBJECT">GREEN</field>
             <next>
               <block type="robot_delay" id="36" inline="true">
                 <value name="DELAY">
