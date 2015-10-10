@@ -11,7 +11,7 @@
         <field name="ACTION">ON</field>
         <value name="LED">
           <block type="math_number" id="43">
-            <field name="NUM">50</field>
+            <field name="NUM">500</field>
           </block>
         </value>
         <next>
@@ -21,7 +21,7 @@
               <block type="robot_delay" id="36" inline="true">
                 <value name="DELAY">
                   <block type="math_number" id="50">
-                    <field name="NUM">10</field>
+                    <field name="NUM">5</field>
                   </block>
                 </value>
               </block>
